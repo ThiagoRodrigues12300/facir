@@ -397,8 +397,8 @@ void menu(){
         instrucao();
         break;
     case 4:
-        system("exit");
         printf("\nFinalizando o Programa...\n\n");
+	exit(0);
         break;
     default:
         printf("\nComando invalido, tente novamente!\n\n");
